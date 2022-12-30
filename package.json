@@ -1,0 +1,27 @@
+{
+  "name": "bsraltairapp",
+  "productName": "BSR Altair App",
+  "version": "1.0.0",
+  "description": "BSR Server",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make",
+    "publish": "electron-forge publish",
+    "lint": "echo \"No linting configured\""
+  },
+  "keywords": [],
+  "author": "BSR Server",
+  "license": "SEE LICENSE IN LICENSE",
+  "dependencies": {
+    "electron-squirrel-startup": "^1.0.0"
+  },
+  "devDependencies": {
+    "@electron-forge/cli": "^6.0.4",
+    "@electron-forge/maker-dmg": "^6.0.4",
+    "@electron-forge/maker-squirrel": "^6.0.4",
+    "electron": "22.0.0",
+    "electron-icon-builder": "^2.0.1"
+  }
+}
